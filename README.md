@@ -1,11 +1,14 @@
 ODMetadataMap
 =============
 
-Mapping of standardised and popular Open Data metadata schemas
+Mapping of standardised and popular Open Data metadata models
+
+<h2>Overview<h2>
+
+ODMetadataMap.csv presents a consolidated comparison of existing international and Irish Open Data metadata models, including DCAT, CKAN Domain Model, INSPIRE, ISDI Metadata Profile, ISO 19115, Dublinked Metadata Profile and Schema.org. 
+The mappings in ODMetadataMap.csv are based on my interpretations of the available 'mappings between metadata models' articles and documents referenced below.  ODMetadataMap.csv is not affiliated with the creators of the original metadata models or mappings.
 
 <h2>References<h2>
-
-The mappings in ODMetadataMap.csv are based on the 'mappings between metadata models' referenced below.
 
 <h3>Metadata Models</h3>
 
@@ -17,20 +20,30 @@ DCAT
 
 http://www.w3.org/TR/vocab-dcat/
 
-
 CKAN Domain Model (v1.8)
 
 http://docs.ckan.org/en/ckan-1.8/domain-model.html 
 
+INSPIRE
+
+http://inspire.ec.europa.eu/
+
+Irish Spatial Data Infrastructure (ISDI) Metadata Profile
+
+http://www.environ.ie/en/Publications/DevelopmentandHousing/Planning/FileDownLoad,32650,en.pdf
+
+ISO 19115-1:2014 Geographic information -- Metadata
+
+http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=53798
+
+Dublinked Metadata Profile
+
+http://www.dublinked.ie/datastore/local/Dublinked/catalog/Dublinked-Metadata-Profile-v1.1-draft.pdf
 
 Schema.org
 
 http://schema.org/
 
-
-INSPIRE
-
-http://inspire.ec.europa.eu/
 
 <h3>Mappings between Metadata Models</h3>
 
@@ -46,31 +59,25 @@ https://ies-svn.jrc.ec.europa.eu/projects/metadata/wiki/INSPIRE_profile_of_DCAT-
 
 https://ies-svn.jrc.ec.europa.eu/projects/metadata/wiki/INSPIRE_profile_of_DCAT-AP_-_Reference
 
-
 CKAN CKANEXT-DCAT, with dataset mapping
 
 https://github.com/ckan/ckanext-dcat
-
 
 COMSODE D3.3 Annex D (CKAN-DCAT metadata fields mapping)
 
 http://www.comsode.eu/index.php/deliverables/
 
-
 Project Open Data Metadata Schema v1.1 Mappings
 
 https://project-open-data.cio.gov/v1.1/metadata-resources/#field-mappings 
-
 
 Project Open Data G8 Metadata Mapping 
 
 https://github.com/project-open-data/G8_Metadata_Mapping
 
-
 The ODI Dataset Metadata Survey
 
 https://github.com/theodi/dataset-metadata-survey
-
 
 Fraunhofer Fokus OGD Metadata
 
