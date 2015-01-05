@@ -1,0 +1,86 @@
+DCAT class,DCAT prop,CKAN class,CKAN dataset field,DC Terms,INSPIRE,ISDI Metadata Profile ,ISO 19115,Dublinked,Project Open Data Metadata Schema v1.1,Schema.org
+dcat:Catalog,dcat:dataset,,,,Coupled resource,,,,,
+dcat:Dataset,adms:identifier,Dataset,extra:alternate_identifier,,,,,,,
+dcat:Dataset,adms:version,Dataset,extra:dcat_version,,,,,,,
+dcat:Dataset,adms:versionNotes,Dataset,extra:version_notes,,,,,,,
+dcat:Dataset,dcat:contactPoint,Dataset,extra:contact_uri,,Responsible organisation - Point of Contact,Responsible party,pointOfContact (29),Agency,contactPoint -> fn,provider -> Person:name
+dcat:Dataset,dcat:distribution,Dataset,resources,,,,,,distribution,distribution
+dcat:Dataset,dcat:keyword,Dataset,tags,,Keyword,Descriptive keywords,"keyword (53), thesaurasName (55)",Keywords,keyword,keywords
+dcat:Dataset,dcat:landingPage,Dataset,url,,Resource locator,,,Links,landingPage,url
+dcat:Dataset,dcat:theme,Dataset,extra:theme,,Keyword,Topic category,topicCategory (41),Categories,theme,about
+dcat:Dataset,dct:accrualPeriodicity,Dataset,extra:frequency,dct:accrualPeriodicity,,Maintenance update and frequency,resourceMaintenance (-),Update Frequency,accrualPeriodicity,
+dcat:Dataset,dct:description,Dataset,notes,dct:description,Resource abstract,Resource abstract,abstract (25),Description,description,description
+dcat:Dataset,dct:identifier,Dataset,extra:identifier,dct:identifier,Unique resource identifier,Unique resource identifier,identifier (365),,identifier,
+dcat:Dataset,dct:issued,Dataset,extra:issued,dct:issued,Temporal reference - Date of publication,Date of publication,date (394),Date of Publication,,
+dcat:Dataset,dct:language,Dataset,extra:language,dct:language,Resource language,Dataset language,language (39),Language,language,inLanguage
+dcat:Dataset,dct:modified,Dataset,extra:modified,dct:modified,Temporal reference - Date of last revisiton,Date of last revision,date (394),Date of Last Revision,modified,dateModified
+dcat:Dataset,dct:publisher,Dataset,extra:publisher_uri,dct:publisher,Responsible organisation - Publisher,,,Agency,publisher -> name,publisher -> Organization:name
+dcat:Dataset,dct:spatial,Dataset,extra:spatial_uri,dct:spatial,Geographic bounding box,Geographic bounding box,"geographicElement (344, 345, 346, 347 )",Geographic Bounding Box,spatial,spatial
+dcat:Dataset,dct:temporal,Dataset,"extra:temporal_start, extra:temporal_end",dct:temporal,Temporal reference - Temporal extent,Temporal extent,extent (351),Date Range,temporal,temporal
+dcat:Dataset,dct:title,Dataset,title,dct:title,Resource title,Resource title,title (360),Title,title,name
+dcat:Dataset,rdf:type,,,,Resource type,Resource Type,hierarchyLevel (6),,Metadata Type,itemtype attribute
+dcat:Distribution,adms:status,Resource,resource:status,,,Resource status,status (28),,,
+dcat:Distribution,dcat:accessURL,Resource,resource:url,,Resource locator,ResourceLocator,linkage (397),Links,accessURL,contentUrl
+dcat:Distribution,dcat:byteSize,Resource,resource:size,,,,,,,
+dcat:Distribution,dcat:downloadURL,Resource,resource:download_url,,,,,Links,downloadURL,contentUrl
+dcat:Distribution,dcat:mediaType,Resource,resource:mimetype,,Encoding,,,,mediaType,
+dcat:Distribution,dct:description,Resource,resource:description,dct:description,,,,,description,description
+dcat:Distribution,dct:format,Resource,resource:format,dct:format,Encoding,Distribution format,distributionFormat (-),DistributionFormats,format,encodingFormat
+dcat:Distribution,dct:issued,Resource,resource:issued,dct:issued,,,,,issued,datePublished
+dcat:Distribution,dct:license,Resource,resource:license,dct:license,Conditions for access and use,Limitations on public access,useLimitation (68),Use Constraints,license,license
+dcat:Distribution,dct:modified,Resource,resource:modified,dct:modified,,,,,,
+dcat:Distribution,dct:rights,Resource,resource:rights,dct:rights,Conditions for access and use,Limitations on public access,accessConstraints (70),Access Permissions,rights,
+dcat:Distribution,dct:title,Resource,resource:name,dct:title,,,,,title,name
+dcat:Distribution,,Resource,resource:uri,,,,,,,
+foaf:Agent,dct:type,Dataset,extra:publisher_type,dct:type,,,,,,
+foaf:Agent,foaf:homepage,Dataset,extra:publisher_url,,,,,,,
+foaf:Agent,foaf:mbox,Dataset,extra:publisher_email,,,,,,,
+foaf:Agent,foaf:name,Dataset,extra:publisher_name,,,,,,publisher -> name,publisher -> Organization:name
+vcard:Kind,vcard:fn,Dataset,extra:conact_name,,Responsible organisation - Point of Contact,Distributor contact,distributorContact (8),,contactPoint -> fn,provider -> Person:name
+vcard:Kind,vcard:hasEmail,Dataset,extra:contact_email,,Responsible organisation - Point of Contact,Distributor contact,distributorContact (8),,contactPoint -> hasEmail,provider -> Person:email
+,,Dataset,author,dct:creator,Responsible organisation - Originator,,,,,
+,,Dataset,author_email,,,,,,,
+,,Dataset,extra:conforms_to,dct:conformsTo,Conformity,Conformity,"pass (132), specification (130)",,conformsTo,
+,,Dataset,groups,,,,,,,
+,,Dataset,id,,,,,,,
+,,Dataset,license,dct:rights,,,,,,
+,,Dataset,maintainer,,,,,,,
+,,Dataset,marintainer_email,,,,,,,
+,,Dataset,name,,,,,,,
+,,Dataset,state,,,,,,,
+,,Dataset,version,,,,,,,
+,,,,dct:alternative,,Resource alternative title,alternateTitle (360),,,
+,,,,dct:created,Temporal reference - Date of creation,Date of creation,date (394),Date of Creation,,
+,,,,dct:references,,,,,,
+,,,,dct:rightsHolder,Responible organisation - Owner,,,Agency,,
+,,,,,,Dataset character set,characterSet (-),,,
+,,,,,,Distributor contact,distributorContact (8),,,
+,,,,,,Lineage,lineage (83),,,
+,,,,,,Metadata language,language (3),,,
+,,,,,,Metadata character set,characterSet (-),,,
+,,,,,,Metadata point of contact,contact (8),,,
+,,,,,,Metadata date,dateStamp (9),,,
+,,,,,,Metadata standard name,metadataStandardName,Metadata Standard Name,,
+,,,,,,Metadata standard version,metadataStandardVersion,Metadata Standard Version,,
+,,,,,,Resource purpose,purpose (-),Collection Purpose,,
+,,,,,,Spatial reference system,spatialReferenceSystem(-),Spatial Projection,,
+,,,,,,Spatial Representation Type ,spatialRepresentationType (-),,,
+,,,,,,Spatial Resolution,distance (60),,,
+,,,,,,Spatial Resolution,equivalentScale (61),,,
+,,,,,,Vertical information,verticalExtent (-),,,
+,,,,,,,,Spatial Administrative Area,,
+,,,,,,,,Subject,,
+,,,,,,,,Code Page,,
+,,,,,,,,Related Datasets,,
+,,,,,,,,,isPartOf,isPartOf
+,,,,,,,,,systemOfRecords,
+,,,,,,,,,primaryITInvestmentUII,
+,,,,,,,,,describedBy,
+,,,,,,,,,describedByType,
+,,,,,,,,,dataQuality,
+,,,,,,,,,publisher -> subOrganizationOf,
+,,,,,,,,,accessLevel,publisher -> Organization:memberOf
+,,,,,,,,,bureauCode,
+,,,,,,,,,programCode,
+,,,,,,,,,describedBy,
+,,,,,,,,,describedByType,
