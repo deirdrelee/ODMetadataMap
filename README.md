@@ -5,7 +5,7 @@ Mapping of standardised and popular Open Data metadata schemas
 
 <h2>References<h2>
 
-The mappings in ODMetadataMap.csv are based on the mappings between data models referenced below.
+The mappings in ODMetadataMap.csv are based on the 'mappings between metadata models' referenced below.
 
 <h3>Metadata Models</h3>
 
