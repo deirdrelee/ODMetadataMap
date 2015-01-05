@@ -5,16 +5,12 @@ Mapping of standardised and popular Open Data metadata models
 
 <h2>Overview<h2>
 
-ODMetadataMap.csv presents a consolidated comparison of existing international and Irish Open Data metadata models, including DCAT, CKAN Domain Model, INSPIRE, ISDI Metadata Profile, ISO 19115, Dublinked Metadata Profile and Schema.org. 
+ODMetadataMap.csv presents a consolidated comparison of existing international and Irish Open Data metadata models, including DCAT, CKAN Domain Model, Dublin Core DCMI Metadata Terms, INSPIRE, ISDI Metadata Profile, ISO 19115, Dublinked Metadata Profile, Project Open Data Metadata Schema and Schema.org. 
 The mappings in ODMetadataMap.csv are based on my interpretations of the available 'mappings between metadata models' articles and documents referenced below.  ODMetadataMap.csv is not affiliated with the creators of the original metadata models or mappings.
 
 <h2>References<h2>
 
 <h3>Metadata Models</h3>
-
-DCMI Metadata Terms
-
-http://dublincore.org/documents/dcmi-terms/
 
 DCAT
 
@@ -23,6 +19,10 @@ http://www.w3.org/TR/vocab-dcat/
 CKAN Domain Model (v1.8)
 
 http://docs.ckan.org/en/ckan-1.8/domain-model.html 
+
+DCMI Metadata Terms
+
+http://dublincore.org/documents/dcmi-terms/
 
 INSPIRE
 
@@ -39,6 +39,10 @@ http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumbe
 Dublinked Metadata Profile
 
 http://www.dublinked.ie/datastore/local/Dublinked/catalog/Dublinked-Metadata-Profile-v1.1-draft.pdf
+
+Project Open Data Metadata Schema v1.1 
+
+https://project-open-data.cio.gov/v1.1/schema/
 
 Schema.org
 
